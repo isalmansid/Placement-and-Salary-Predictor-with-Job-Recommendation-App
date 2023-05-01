@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="RollNo"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Status"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_marginLeft="330dp"
+        android:layout_marginTop="10dp"
+        android:textSize="30dp"
+        />
+
+
+    <ListView
+        android:id="@+id/l1"
+        android:layout_width="140dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"/>
+
+
+    <ListView
+        android:id="@+id/l2"
+        android:layout_width="80dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="140dp"/>
+
+    <ListView
+        android:id="@+id/l3"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="220dp"/>
+
+    <ListView
+        android:id="@+id/l4"
+        android:layout_width="110dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="320dp"/>
+
+
+
+
+</RelativeLayout>

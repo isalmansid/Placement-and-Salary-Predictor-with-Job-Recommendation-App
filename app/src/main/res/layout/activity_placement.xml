@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="244dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="30dp"
+        app:srcCompat="@drawable/stud" />
+
+
+
+
+
+
+
+    <EditText
+        android:id="@+id/Branch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/name"
+        android:layout_below="@+id/imageView2"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="10dp"
+        android:ems="10"
+        android:background="@android:color/background_light"
+        android:hint=" Enter your Branch from 1 to 7"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/SSC"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/phone"
+        android:layout_below="@+id/Branch"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:hint=" SSC % "
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/HSC_DIPLOMA"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/SSC"
+        android:drawableLeft="@drawable/phone"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:hint=" HSC/DIPLOMA %"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/Degree_Sem_1_Cgpa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/HSC_DIPLOMA"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:drawableLeft="@drawable/phone"
+        android:background="@android:color/background_light"
+        android:ems="10"
+        android:hint=" SEM I CGPA"
+        android:inputType="number"
+
+
+        />
+
+    <EditText
+        android:id="@+id/Degree_Sem_2_Cgpa"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Degree_Sem_1_Cgpa"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/phone"
+        android:layout_marginLeft="10dp"
+        android:hint=" SEM II CGPA"
+        android:inputType="number"
+        />
+
+    <EditText
+        android:id="@+id/Degree_Sem_3_Cgpa"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Degree_Sem_2_Cgpa"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/phone"
+        android:layout_marginLeft="10dp"
+        android:hint=" SEM III CGPA"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/Degree_Sem_4_Cgpa"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Degree_Sem_3_Cgpa"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/phone"
+        android:layout_marginLeft="10dp"
+        android:hint=" SEM IV CGPA"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/Degree_Sem_5_Cgpa"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Degree_Sem_4_Cgpa"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:drawableLeft="@drawable/phone"
+        android:layout_marginLeft="10dp"
+        android:hint=" SEM V CGPA"
+        android:inputType="number"
+        />
+
+    <TextView
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Degree_Sem_5_Cgpa"
+        android:layout_marginTop="5dp"
+        android:text=" Enter 1 for python, 2 - Java, 3 - C,C++, 4 - DB, 5 - AIML" />
+
+    <EditText
+        android:id="@+id/Programming_Skills"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/details"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/phone"
+        android:hint=" Programming Skills"
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/Communication_Skills_Out_Of_5"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Programming_Skills"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/phone"
+        android:hint=" Communication_Skills_Out_Of_5 "
+        android:inputType="number"
+        />
+    <EditText
+        android:id="@+id/English_Grammar_Out_Of_5"
+        android:background="@android:color/background_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Communication_Skills_Out_Of_5"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:layout_marginLeft="10dp"
+        android:drawableLeft="@drawable/phone"
+        android:hint=" English_Grammar_Out_Of_5 "
+        android:inputType="number"
+        />
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/English_Grammar_Out_Of_5"
+        android:layout_marginTop="30dp"
+
+        android:background="@color/colorAccent"
+        android:text="Predict" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/predict"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="" />
+
+
+</RelativeLayout>
